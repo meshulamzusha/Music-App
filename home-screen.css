@@ -1,0 +1,105 @@
+body {
+    display: grid;
+    grid-template-rows: 1fr 1fr 3fr 6fr 1.5fr;
+    height: 100vh;
+    overflow: hidden;
+    background-color: #192038;
+    margin: 16px;
+    font-family: "Gilroy-Bold", sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+}
+
+header h1 {
+    font-size: 26px;
+    color: #ffffff;
+}
+
+header button {
+    background: none;
+    border: none;
+}
+
+section.search span {
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+section.search input {
+    width: 21rem;
+    padding: 8px;
+    margin-top: 10px;
+    color: #8F9BB3;
+    background-color: #222B45;
+    border: none;
+    border-radius: 4px;
+    background-image: url('./images/search-Icon.png');
+    background-position: 10px 5px;
+    background-repeat: no-repeat;
+}
+
+.categories {
+    align-self: end;
+}
+
+.categories-btn {
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    border: none;
+    background: none;
+}
+
+.categories-btn img {
+    position: relative;
+    top: 5px;
+}
+
+.view-all-btn {
+    background: none;
+    border: none;
+    color: #ffffff;
+}
+
+.categories ol {
+    display: flex;
+    padding: 0;
+    list-style-type: none;
+}
+
+.categories ol li {
+    text-align: center;
+    align-content: center;
+    width: 90px;
+    height: 100px;
+    margin-right: 10px;
+    border-radius: 8px;
+}
+
+.categories ol li a {
+    font-size: 14px;
+    font-weight: 700;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.education {
+    background: linear-gradient(326.38deg, #F12711 -4.62%, #F5AF19 100%);
+}
+
+.society {
+    background: linear-gradient(144.4deg, #623DEF 0%, #340FD1 100%);
+}
+
+.sports {
+    background: linear-gradient(144.4deg, #43EF1D 0%, #0D80F2 100%);
+}
+
+.films {
+    background: linear-gradient(144.4deg, #E9228D 0%, #F12711 100%);
+}
