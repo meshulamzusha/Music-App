@@ -1,8 +1,8 @@
 body {
     display: grid;
     grid-template-rows: 1fr 1fr 3fr 6fr 1.5fr;
+    grid-template-columns: 100%;
     height: 100vh;
-    overflow: hidden;
     background-color: #192038;
     margin: 16px;
     font-family: "Gilroy-Bold", sans-serif;
@@ -11,7 +11,7 @@ body {
 header {
     display: flex;
     justify-content: space-between;
-    width: 90%;
+    max-width: 100%;
 }
 
 header h1 {
@@ -31,7 +31,9 @@ section.search span {
 }
 
 section.search input {
-    width: 21rem;
+    display: block;
+    width: 100%;
+    max-width: 100%;
     padding: 8px;
     margin-top: 10px;
     color: #8F9BB3;
